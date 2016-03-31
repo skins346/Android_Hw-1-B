@@ -1,0 +1,118 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="#696969"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QTIP"
+        android:textColor="#39e258"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+     </LinearLayout>>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="#fbb724"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="3dp"
+        >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:hint="Total Amount"
+        android:textSize="30sp"
+        android:id="@+id/answer"
+        />
+
+    </LinearLayout>>
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="#696969"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+      <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15%"
+            android:textSize ="20sp"
+            android:checked="false"
+            android:id="@+id/radio1"
+            android:textColor="#fdfdfd">
+        </RadioButton>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20%"
+            android:textSize ="20sp"
+            android:checked="false"
+            android:id="@+id/radio2"
+            android:textColor="#fcfafa">
+        </RadioButton>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Other"
+            android:textSize ="20sp"
+            android:checked="false"
+            android:id="@+id/radio3"
+            android:textColor="#fcf9f9">
+        </RadioButton>
+
+        <EditText
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:id="@+id/other"
+            android:textColor="#696969"
+            android:background="#e1dfdf" />
+
+    </RadioGroup>
+    </LinearLayout>>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="#696969"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+    <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Calculate"
+          android:textSize ="20sp"
+          android:id="@+id/calBtn">
+
+      </Button>
+     </LinearLayout>>
+
+
+    </LinearLayout>
